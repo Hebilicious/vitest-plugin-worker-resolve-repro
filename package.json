@@ -1,0 +1,7 @@
+{
+  "name": "repro-root",
+  "private": true,
+  "scripts": {
+    "test": "worker/node_modules/.bin/vitest run --config worker/vitest.config.ts"
+  }
+}

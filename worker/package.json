@@ -1,0 +1,9 @@
+{
+  "name": "worker",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "@cloudflare/vitest-plugin": "1.9.0",
+    "vitest": "5.1.1"
+  }
+}
