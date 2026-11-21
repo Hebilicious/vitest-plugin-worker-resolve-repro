@@ -42,7 +42,7 @@ The pool runs the runner as the workerd module `index.mjs` with `modulesRoot: "/
 
 ## Fix
 
-Pull request [Hebilicious/workers-sdk#2](https://github.com/Hebilicious/workers-sdk/pull/2), for issue [Hebilicious/workers-sdk#1](https://github.com/Hebilicious/workers-sdk/issues/1). It resolves `vitest/worker` from the plugin package, which is where the pool's own `vitest` imports resolve from.
+Reported upstream in [cloudflare/workers-sdk#17107](https://github.com/cloudflare/workers-sdk/issues/17107), fixed by [cloudflare/workers-sdk#17108](https://github.com/cloudflare/workers-sdk/pull/17108) (prepared in [Hebilicious/workers-sdk#2](https://github.com/Hebilicious/workers-sdk/pull/2)). It resolves `vitest/worker` from the plugin package, which is where the pool's own `vitest` imports resolve from.
 
 ## Versions
 
